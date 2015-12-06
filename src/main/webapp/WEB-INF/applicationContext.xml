@@ -37,5 +37,5 @@
 	<property name="dataSource" ref="dataSource"/>
 </bean>
 
-
+<jpa:repositories base-package="com.rja0315.repository"/>
 </beans>

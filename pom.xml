@@ -11,11 +11,15 @@
   
 <!-- Shared version number properties -->
 <properties>
-    <org.springframework.version>4.0.2.RELEASE</org.springframework.version>
+    <org.springframework.version>4.2.3.RELEASE</org.springframework.version>
     <apache.tiles>3.0.3</apache.tiles>
 </properties>
 <dependencies>	
-
+	<dependency>
+		<groupId>jstl</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
+	</dependency>
 	<dependency>
 		<groupId>org.slf4j</groupId>
 		<artifactId>slf4j-log4j12</artifactId>
@@ -191,7 +195,7 @@
   	<dependency>
 		<groupId>org.hibernate</groupId>
 		<artifactId>hibernate-entitymanager</artifactId>
-		<version>4.3.4.Final</version>
+		<version>4.3.8.Final</version>
 	</dependency>
 	
 	<dependency>

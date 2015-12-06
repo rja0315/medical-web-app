@@ -1,11 +1,11 @@
 package com.rja0315.entity;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
-
-import antlr.collections.List;
 
 @Entity
 public class Role{
@@ -14,17 +14,17 @@ public class Role{
 	@GeneratedValue
 	private Integer id;
 	
-	private String  name;
+	private String name;
 
 	@ManyToMany
-	private java.util.List<User> users;
-	
+	private List<User> users;
 
-	public java.util.List<User> getUsers() {
+	
+	public List<User> getUsers() {
 		return users;
 	}
 
-	public void setUsers(java.util.List<User> users) {
+	public void setUsers(List<User> users) {
 		this.users = users;
 	}
 
