@@ -16,7 +16,7 @@ public class Record {
 	@GeneratedValue
 	private Integer id;
 	
-	private String url;
+	private String symptom;
 	
 	private String name;
 
@@ -50,12 +50,12 @@ public class Record {
 		this.id = id;
 	}
 
-	public String getUrl() {
-		return url;
+	public String getSymptom() {
+		return symptom;
 	}
 
-	public void setUrl(String url) {
-		this.url = url;
+	public void setSymptom(String symptom) {
+		this.symptom = symptom;
 	}
 
 	public String getName() {
