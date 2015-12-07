@@ -38,4 +38,6 @@
 </bean>
 
 <jpa:repositories base-package="com.rja0315.repository"/>
+
+<import resource="security.xml"/>
 </beans>

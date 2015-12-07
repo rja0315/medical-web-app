@@ -46,7 +46,6 @@ ${current}
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="${current == 'index' ? 'active' : '' }"><a href='<spring:url value="/"/>'>Home</a></li>
-            <li class="${current == 'users' ? 'active' : '' }"><a href="<spring:url value="/users.html"/>">Patients</a></li>
             <li class="${current == 'register' ? 'active' : '' }"><a href="<spring:url value="/register.html"/>">Sign-up</a></li>
           
           </ul>
